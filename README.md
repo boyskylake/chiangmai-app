@@ -6,7 +6,7 @@
 
 # Installation
 
-- สร้าง project ionic ใหม่ `ionic start DemoApp blank --v2 --ts`
+- `git clone https://github.com/siteslave/chiangmai-app`
 - รันคำสั่ง `npm i`
 - จากนั้นรันคำสั่ง `ionic run android --device`
 - ต้องติดตั้ง rest-server ด้วยนะครับ เสร็จแล้ว แก้ไข ไฟล์​ `app/app.modules.ts` บรรทัดที่ 61  ดังนี้ `{ provide: 'API_URL', useValue: 'http://192.168.200.21:3000' }` โดยให้เปลี่ยน url ใหม่เป็น IP ของเครื่อง server แทน
