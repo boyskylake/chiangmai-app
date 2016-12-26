@@ -58,7 +58,7 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
     Contact,
     Setting,
     Message,
-    { provide: 'API_URL', useValue: 'http://192.168.43.224:3000' },
+    { provide: 'API_URL', useValue: 'http://10.0.3.241:3000' },
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })

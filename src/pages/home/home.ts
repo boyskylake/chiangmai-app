@@ -5,7 +5,6 @@ import { CallNumber } from 'ionic-native';
 import { Customer } from '../../providers/customer';
 import { AddCustomerPage } from '../add-customer/add-customer';
 import { MapPage } from '../map/map';
-import { LoginPage } from '../login/login';
 import { JwtHelper } from 'angular2-jwt';
 
 import { IHttpResult, ICustomer } from '../../model';
